@@ -1,0 +1,7 @@
+FROM dunglas/frankenphp:php8.3-alpine
+
+WORKDIR /app
+
+COPY . /app
+
+CMD ["frankenphp", "php-server", "--listen", "0.0.0.0:${PORT:-80}", "--root", "/app"]
