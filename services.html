@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Sectors & Solutions - SA International</title>
+
+  <!-- Favicon: SA International Logo -->
+  <link rel="icon" type="image/png" href="images/sa-logo.png">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS (Local file - Instant 100% Offline Loading) -->
+  <script src="tailwind.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-600 selection:text-white min-h-screen flex flex-col">
+
+  <!-- Top Global Operations Bar -->
+  <div class="bg-slate-950 text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-2.5">
+      
+      <!-- Global Market Tickers -->
+      <div class="flex flex-wrap items-center gap-3 text-[11px] text-slate-400">
+        <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold uppercase tracking-wider text-[10px]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+          Global Desks Open
+        </span>
+        <span class="hidden sm:inline">🇺🇸 New York: <strong class="text-slate-200">09:30 EST</strong></span>
+        <span class="hidden sm:inline">&bull;</span>
+        <span class="hidden sm:inline">🇬🇧 London: <strong class="text-slate-200">14:30 GMT</strong></span>
+        <span class="hidden sm:inline">&bull;</span>
+        <span class="hidden md:inline">🇦🇪 Dubai: <strong class="text-slate-200">18:30 GST</strong></span>
+        <span class="hidden md:inline">&bull;</span>
+        <span>🇵🇰 Lahore: <strong class="text-slate-200">19:30 PKT</strong></span>
+      </div>
+
+      <!-- Currency & Direct Executive Hotline -->
+      <div class="flex items-center space-x-4 text-[11px] text-slate-300">
+        <div class="hidden sm:flex items-center space-x-1.5 bg-slate-900 px-2.5 py-1 rounded-md border border-slate-800 text-[10px] font-semibold text-slate-300">
+          <span>Currency:</span>
+          <span class="text-amber-400 font-bold">USD ($)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">EUR (€)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">AED (د.إ)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">PKR (₨)</span>
+        </div>
+        <a href="mailto:saboorahmad5th@gmail.com" class="hover:text-white transition hidden md:inline">
+          ✉️ saboorahmad5th@gmail.com
+        </a>
+        <a href="https://wa.me/923364147095" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1 transition">
+          <span>💬</span> +92 336 4147095
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main Global Corporate Navbar -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo: SA INTERNATIONAL -->
+        <a href="index.html" class="flex items-center space-x-3 group">
+          <div class="w-12 h-12 rounded-full overflow-hidden shadow-md border-2 border-slate-200 group-hover:scale-105 transition transform bg-white flex items-center justify-center p-0.5 shrink-0">
+            <img src="images/sa-logo.png" alt="SA International Logo" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <div class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-none flex items-center gap-1.5">
+              <span>SA</span>
+              <span class="text-brand-600 font-black">INTERNATIONAL</span>
+            </div>
+            <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 block mt-1">
+              Global Enterprise & Trade Solutions
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 text-sm font-semibold">
+          <a href="index.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Home</a>
+          <a href="about.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">About Us</a>
+          <a href="services.html" class="px-3.5 py-2 rounded-xl transition text-brand-600 bg-brand-50 font-bold">Global Sectors</a>
+          <a href="network.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Worldwide Network</a>
+          <a href="contact.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Contact & Offices</a>
+        </nav>
+
+        <!-- Right Action Button: Request a Quote (RFQ) -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="contact.html" class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white text-xs font-bold shadow-md hover:shadow-lg transition transform active:scale-95 flex items-center gap-2">
+            <span>Request Quotation (RFQ)</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex lg:hidden">
+          <button id="mobile-menu-btn" class="p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Toggle menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-b border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="services.html" class="block px-3.5 py-2.5 rounded-xl bg-brand-50 text-brand-600 font-bold">Global Sectors</a>
+      <a href="network.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Worldwide Network</a>
+      <a href="contact.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Contact & Offices</a>
+      
+      <div class="pt-2">
+        <a href="contact.html" class="block w-full text-center px-4 py-3 rounded-xl bg-brand-600 text-white font-bold text-xs shadow">Request Quotation (RFQ) &rarr;</a>
+      </div>
+    </div>
+  </header>
+
+<!-- Page Banner -->
+  <section class="py-16 sm:py-24 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white border-b border-slate-800 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+      <img src="images/global-logistics.jpg" alt="SA International Global Logistics" class="w-full h-full object-cover">
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+      <nav class="flex items-center space-x-2 text-xs text-slate-400 mb-4 font-medium">
+        <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+        <span>/</span>
+        <span class="text-slate-200">Global Sectors & Solutions</span>
+      </nav>
+
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2.5 px-3 py-1 rounded-full bg-amber-400/10 border border-amber-400/20 text-amber-400 text-xs font-bold uppercase tracking-widest">
+          <img src="images/sa-logo.png" alt="SA International Logo" class="w-5 h-5 rounded-full object-contain bg-white border border-slate-200">
+          <span>Divisional Capabilities</span>
+        </div>
+        <h1 class="text-3xl sm:text-6xl font-black tracking-tight text-white mt-4 leading-tight">
+          Comprehensive International Solutions Across 4 Sectors
+        </h1>
+        <p class="mt-4 text-base sm:text-xl text-slate-300 leading-relaxed font-light">
+          From full container load maritime logistics to enterprise cloud architecture, SA International powers scalable cross-border operations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Main Services Content -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24 w-full space-y-28">
+
+    <!-- Sector 1: Global Logistics & Freight -->
+    <section id="logistics" class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center scroll-mt-24">
+      <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group relative">
+        <div class="aspect-[16/11] relative overflow-hidden">
+          <img src="images/global-logistics.jpg" 
+               alt="SA Global Maritime Freight & Cargo" 
+               class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md text-amber-400 font-bold text-xs border border-slate-700">
+              Sector 01 &bull; Maritime & Air
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-700 text-white text-xs flex items-center justify-between">
+            <span class="text-amber-400 font-medium">AIS Live Fleet Telemetry</span>
+            <span class="text-slate-300 font-semibold">45k+ TEUs / Yr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-brand-600 bg-brand-50 px-3 py-1 rounded-full border border-brand-200">
+          Freight & Supply Chain
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+          Global Multimodal Freight & Customs Clearance
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          SA International orchestrates high-volume container freight across major maritime trade lanes (East Asia &ndash; Middle East &ndash; Europe &ndash; Americas). Our integrated logistics network ensures sub-standard demurrage times and automated customs clearance.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Ocean Freight:</strong> FCL and LCL containerized transport with Tier-1 carriers.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Air Freight Charter:</strong> Priority express transport for high-value and perishable goods.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Bonded Warehousing:</strong> Free-zone storage in Dubai, London, and regional hubs.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Customs Brokerage:</strong> Complete digital manifest filing and tariff compliance.</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="logistics.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs shadow-md transition">
+            <span>Open Dedicated Logistics Page</span>
+            <span>&rarr;</span>
+          </a>
+          <a href="contact.html?sector=logistics" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white font-bold text-xs shadow-md transition">
+            <span>Request RFQ Quote</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sector 2: Enterprise Cloud & Technology (Reversed) -->
+    <section id="technology" class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center scroll-mt-24">
+      <div class="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group relative">
+        <div class="aspect-[16/11] relative overflow-hidden">
+          <img src="images/global-tech.jpg" 
+               alt="SA Enterprise Cloud Technology" 
+               class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md text-sky-400 font-bold text-xs border border-slate-700">
+              Sector 02 &bull; Cloud Infrastructure
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-700 text-white text-xs flex items-center justify-between">
+            <span class="text-sky-400 font-medium">High Availability SLA: 99.99%</span>
+            <span class="text-slate-300 font-semibold">&lt;15ms Latency</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 lg:order-1 space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-sky-600 bg-sky-50 px-3 py-1 rounded-full border border-sky-200">
+          Digital Infrastructure
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+          Enterprise Cloud, Digital Platforms & Automation
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          We architect mission-critical software solutions tailored for multinational corporations. By combining clean Tailwind CSS architectures, scalable PHP backend microservices, and secure API gateways, we eliminate technical debt and scale user capacity.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Cloud Architectures:</strong> High-availability setups with 99.99% uptime guarantees.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Cross-Border Fintech:</strong> Multi-currency settlement and automated invoice engines.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Custom Enterprise Apps:</strong> Bespoke supply chain and operational portals.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Cybersecurity Audits:</strong> Data encryption and compliance with GDPR standards.</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="technology.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-slate-950 font-black text-xs shadow-md transition">
+            <span>Open Dedicated Tech Page</span>
+            <span>&rarr;</span>
+          </a>
+          <a href="contact.html?sector=technology" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white font-bold text-xs shadow-md transition">
+            <span>Schedule Tech Consultation</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sector 3: Cross-Border Commodities -->
+    <section id="commodities" class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center scroll-mt-24">
+      <div class="lg:col-span-6 rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group relative">
+        <div class="aspect-[16/11] relative overflow-hidden">
+          <img src="images/global-trade.jpg" 
+               alt="SA Cross-Border Commodities" 
+               class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md text-emerald-400 font-bold text-xs border border-slate-700">
+              Sector 03 &bull; Global Commodities
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-700 text-white text-xs flex items-center justify-between">
+            <span class="text-emerald-400 font-medium">SGS Certified Grade-A: 99.2% Purity</span>
+            <span class="text-slate-300 font-semibold">120k MT / Yr</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+          Global Trade & Sourcing
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+          Physical Commodities, Agro-Exports & Minerals
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          SA International bridges primary producers with global buyers across agriculture, industrial minerals, textile fibers, and packaged export commodities. We ensure certified quality benchmarks from dock to delivery.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Quality Testing:</strong> Pre-shipment laboratory inspections and SGS certificates.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>LC Settlement:</strong> Irrevocable Letters of Credit and trade finance support.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Direct Agro Sourcing:</strong> Non-GMO grains, specialized spices, and premium rice.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Marine Insurance:</strong> Institute Cargo Clauses (A) cover for all ocean shipments.</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="commodities.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs shadow-md transition">
+            <span>Open Dedicated Commodities Page</span>
+            <span>&rarr;</span>
+          </a>
+          <a href="contact.html?sector=commodities" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white font-bold text-xs shadow-md transition">
+            <span>Request Spec Sheet</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Sector 4: Strategic Advisory (Reversed) -->
+    <section id="consulting" class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center scroll-mt-24">
+      <div class="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-100 group relative">
+        <div class="aspect-[16/11] relative overflow-hidden">
+          <img src="images/global-meeting.jpg" 
+               alt="SA Strategic Corporate Advisory" 
+               class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+          <div class="absolute top-4 left-4">
+            <span class="px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-md text-purple-400 font-bold text-xs border border-slate-700">
+              Sector 04 &bull; Corporate Counsel
+            </span>
+          </div>
+          <div class="absolute bottom-3 left-3 right-3 p-3 rounded-xl bg-slate-950/85 backdrop-blur-md border border-slate-700 text-white text-xs flex items-center justify-between">
+            <span class="text-purple-400 font-medium">Cross-Border Due Diligence</span>
+            <span class="text-slate-300 font-semibold">$280M+ Advised</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:col-span-6 lg:order-1 space-y-5">
+        <span class="text-xs font-bold uppercase tracking-widest text-purple-600 bg-purple-50 px-3 py-1 rounded-full border border-purple-200">
+          Strategic Advisory
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+          Cross-Border Corporate Advisory & Market Expansion
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Entering international markets demands nuanced regulatory navigation, tariff optimization, and local operational alignment. Our executive advisory team counsels multinational executives on high-value trade structuring.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-xs text-slate-700">
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>GCC & European Expansion:</strong> Entity setup, corporate licensing, and tax structure.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Tariff Harmonization:</strong> HS Code optimization and free-trade agreement utilization.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Joint Venture Audits:</strong> Pre-acquisition due diligence and bilateral partnerships.</span>
+          </div>
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
+            <span class="text-emerald-500 font-bold">✓</span>
+            <span><strong>Risk Mitigation:</strong> Foreign exchange (FX) hedging and geopolitical contingency plans.</span>
+          </div>
+        </div>
+
+        <div class="pt-2 flex flex-wrap gap-3">
+          <a href="advisory.html" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-purple-600 hover:bg-purple-500 text-white font-black text-xs shadow-md transition">
+            <span>Open Dedicated Advisory Page</span>
+            <span>&rarr;</span>
+          </a>
+          <a href="contact.html?sector=consulting" class="inline-flex items-center gap-2 px-5 py-3.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white font-bold text-xs shadow-md transition">
+            <span>Schedule Advisory Session</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RFQ Corporate Consultation Strip -->
+    <div class="bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 rounded-3xl p-8 sm:p-12 text-white border border-slate-800 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="space-y-2">
+        <span class="text-amber-400 font-bold text-xs uppercase tracking-widest">Global Executive Desk</span>
+        <h3 class="text-2xl sm:text-3xl font-black">Need a Tailored Multi-Sector Solution?</h3>
+        <p class="text-slate-400 text-xs sm:text-sm max-w-xl">Connect directly with Saboor Ahmad (Managing Director) or submit your Request for Quotation (RFQ) for an immediate response within 2 hours.</p>
+      </div>
+      <div class="flex flex-wrap gap-3 whitespace-nowrap">
+        <a href="contact.html" class="px-6 py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-black text-xs shadow-lg transition">
+          Submit RFQ Inquiries &rarr;
+        </a>
+        <a href="https://wa.me/923364147095" target="_blank" class="px-6 py-4 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-lg transition flex items-center gap-2">
+          <span>💬 Direct WhatsApp</span>
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ================= GLOBAL CORPORATE FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 py-16 border-t border-slate-800 text-xs mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
+        
+        <!-- Col 1: Brand & Global Vision (2 cols on lg) -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3 text-white">
+            <div class="w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-slate-700 bg-white flex items-center justify-center p-0.5 shrink-0">
+              <img src="images/sa-logo.png" alt="SA International Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <span class="text-lg font-black tracking-tight block">SA <span class="text-brand-400">INTERNATIONAL</span></span>
+              <span class="text-[10px] text-slate-500 font-bold uppercase tracking-widest block">Global Enterprise & Trade Solutions</span>
+            </div>
+          </div>
+          
+          <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
+            SA International is a diversified cross-border enterprise delivering world-class freight logistics, commodities trading, cloud enterprise engineering, and strategic corporate advisory across 4 continents.
+          </p>
+
+          <div class="flex items-center gap-2 pt-2">
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-slate-300 font-bold text-[10px] border border-slate-800">
+              ISO 9001:2015 Certified
+            </span>
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-slate-300 font-bold text-[10px] border border-slate-800">
+              WCO Trade Security
+            </span>
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-emerald-400 font-bold text-[10px] border border-slate-800">
+              GDPR Compliant
+            </span>
+          </div>
+        </div>
+
+        <!-- Col 2: Global Divisions -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Global Divisions</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="logistics.html" class="hover:text-amber-400 transition">Global Freight & Logistics</a></li>
+            <li><a href="technology.html" class="hover:text-sky-400 transition">Enterprise Cloud Tech</a></li>
+            <li><a href="commodities.html" class="hover:text-emerald-400 transition">Cross-Border Commodities</a></li>
+            <li><a href="advisory.html" class="hover:text-purple-400 transition">Strategic Corporate Advisory</a></li>
+            <li><a href="services.html" class="hover:text-white transition">All Sectors Overview</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Corporate</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="index.html" class="hover:text-white transition">Executive Overview</a></li>
+            <li><a href="about.html" class="hover:text-white transition">About SA International</a></li>
+            <li><a href="saboor-ahmad.html" class="hover:text-amber-400 transition font-medium">Saboor Ahmad (Managing Director)</a></li>
+            <li><a href="network.html" class="hover:text-white transition">Worldwide Hubs</a></li>
+            <li><a href="contact.html" class="hover:text-white transition">Request for Quotation (RFQ)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Executive Headquarters & Regional Hubs -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Executive Office</h4>
+          <div class="space-y-3 text-xs text-slate-400">
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Managing Director</span>
+              <strong class="text-white">Saboor Ahmad</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Direct Hotline / WhatsApp</span>
+              <a href="https://wa.me/923364147095" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-semibold transition">
+                +92 336 4147095
+              </a>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Corporate Email</span>
+              <a href="mailto:saboorahmad5th@gmail.com" class="text-brand-400 hover:text-white transition break-all font-semibold">
+                saboorahmad5th@gmail.com
+              </a>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">South Asia Executive Hub</span>
+              <span class="text-slate-300 block">Muhalla Masjid Taj Din, Mughalpura, Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar: Legal & Global Offices -->
+      <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
+        <div class="flex flex-wrap items-center gap-2">
+          <span>&copy; 2026 SA International Corporation. All international rights reserved.</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <span class="text-slate-400">Global Hubs:</span>
+          <span class="hover:text-white">Dubai</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">London</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">New York</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">Lahore</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Mobile Drawer Toggle Script & RFQ Form Handler -->
+  <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    function handleRfqSubmit(event, sectorName) {
+      event.preventDefault();
+      const form = event.target;
+      const formData = new FormData(form);
+      const rep = formData.get('name') || 'Partner';
+      const company = formData.get('company') || '';
+      const email = formData.get('email') || '';
+      const phone = formData.get('phone') || '';
+      const message = formData.get('message') || '';
+      const route = formData.get('route') || formData.get('origin') || '';
+      
+      const whatsappLines = [
+        "Hello Saboor Ahmad, I am submitting an RFQ for " + (sectorName || "SA International"),
+        "Name: " + rep,
+        "Company: " + company,
+        "Phone: " + phone,
+        "Email: " + email,
+        route ? ("Route/Port: " + route) : "",
+        "Details: " + message
+      ].filter(Boolean);
+      const whatsappMsg = encodeURIComponent(whatsappLines.join("\n"));
+      
+      let alertBox = document.getElementById('rfq-alert');
+      if (!alertBox) {
+        alertBox = document.createElement('div');
+        alertBox.id = 'rfq-alert';
+        alertBox.className = 'my-4 p-5 rounded-2xl bg-emerald-50 border-2 border-emerald-400 text-emerald-900 space-y-2 shadow-lg';
+        form.parentNode.insertBefore(alertBox, form);
+      }
+      
+      alertBox.innerHTML = '<div class="flex items-center gap-2 font-black text-sm text-emerald-800">' +
+        '<span class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs">✓</span>' +
+        '<span>Thank you, ' + rep + '! Your RFQ has been logged.</span></div>' +
+        '<p class="text-xs text-emerald-700">Our international trade desk will review your specifications and contact you within 2 hours.</p>' +
+        '<div class="pt-2"><a href="https://wa.me/923364147095?text=' + whatsappMsg + '" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition"><span>💬 Forward Directly to WhatsApp Desk</span> &rarr;</a></div>';
+      
+      alertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      form.reset();
+    }
+  </script>
+
+</body>
+</html>

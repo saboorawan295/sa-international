@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Strategic International Corporate Advisory - SA International</title>
+
+  <!-- Favicon: SA International Logo -->
+  <link rel="icon" type="image/png" href="images/sa-logo.png">
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS (Local file - Instant 100% Offline Loading) -->
+  <script src="tailwind.js"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              800: '#1e3a8a',
+              900: '#0f172a',
+            },
+            gold: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-600 selection:text-white min-h-screen flex flex-col">
+
+  <!-- Top Global Operations Bar -->
+  <div class="bg-slate-950 text-slate-300 text-xs py-2.5 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-2.5">
+      
+      <!-- Global Market Tickers -->
+      <div class="flex flex-wrap items-center gap-3 text-[11px] text-slate-400">
+        <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-bold uppercase tracking-wider text-[10px]">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+          Global Desks Open
+        </span>
+        <span class="hidden sm:inline">🇺🇸 New York: <strong class="text-slate-200">09:30 EST</strong></span>
+        <span class="hidden sm:inline">&bull;</span>
+        <span class="hidden sm:inline">🇬🇧 London: <strong class="text-slate-200">14:30 GMT</strong></span>
+        <span class="hidden sm:inline">&bull;</span>
+        <span class="hidden md:inline">🇦🇪 Dubai: <strong class="text-slate-200">18:30 GST</strong></span>
+        <span class="hidden md:inline">&bull;</span>
+        <span>🇵🇰 Lahore: <strong class="text-slate-200">19:30 PKT</strong></span>
+      </div>
+
+      <!-- Currency & Direct Executive Hotline -->
+      <div class="flex items-center space-x-4 text-[11px] text-slate-300">
+        <div class="hidden sm:flex items-center space-x-1.5 bg-slate-900 px-2.5 py-1 rounded-md border border-slate-800 text-[10px] font-semibold text-slate-300">
+          <span>Currency:</span>
+          <span class="text-amber-400 font-bold">USD ($)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">EUR (€)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">AED (د.إ)</span>
+          <span class="text-slate-500">|</span>
+          <span class="text-slate-400">PKR (₨)</span>
+        </div>
+        <a href="mailto:saboorahmad5th@gmail.com" class="hover:text-white transition hidden md:inline">
+          ✉️ saboorahmad5th@gmail.com
+        </a>
+        <a href="https://wa.me/923364147095" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1 transition">
+          <span>💬</span> +92 336 4147095
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Main Global Corporate Navbar -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo: SA INTERNATIONAL -->
+        <a href="index.html" class="flex items-center space-x-3 group">
+          <div class="w-12 h-12 rounded-full overflow-hidden shadow-md border-2 border-slate-200 group-hover:scale-105 transition transform bg-white flex items-center justify-center p-0.5 shrink-0">
+            <img src="images/sa-logo.png" alt="SA International Logo" class="w-full h-full object-contain">
+          </div>
+          <div>
+            <div class="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-none flex items-center gap-1.5">
+              <span>SA</span>
+              <span class="text-brand-600 font-black">INTERNATIONAL</span>
+            </div>
+            <span class="text-[10px] tracking-widest uppercase font-bold text-slate-400 block mt-1">
+              Global Enterprise & Trade Solutions
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-1 text-sm font-semibold">
+          <a href="index.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Home</a>
+          <a href="about.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">About Us</a>
+          <a href="services.html" class="px-3.5 py-2 rounded-xl transition text-brand-600 bg-brand-50 font-bold">Global Sectors</a>
+          <a href="network.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Worldwide Network</a>
+          <a href="contact.html" class="px-3.5 py-2 rounded-xl transition text-slate-600 hover:text-brand-600 hover:bg-slate-100">Contact & Offices</a>
+        </nav>
+
+        <!-- Right Action Button: Request a Quote (RFQ) -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="contact.html" class="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-brand-600 text-white text-xs font-bold shadow-md hover:shadow-lg transition transform active:scale-95 flex items-center gap-2">
+            <span>Request Quotation (RFQ)</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex lg:hidden">
+          <button id="mobile-menu-btn" class="p-2 rounded-xl text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Toggle menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-b border-slate-200 bg-white px-4 pt-3 pb-5 space-y-2">
+      <a href="index.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Home</a>
+      <a href="about.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">About Us</a>
+      <a href="services.html" class="block px-3.5 py-2.5 rounded-xl bg-brand-50 text-brand-600 font-bold">Global Sectors</a>
+      <a href="network.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Worldwide Network</a>
+      <a href="contact.html" class="block px-3.5 py-2.5 rounded-xl text-slate-700 hover:bg-slate-100">Contact & Offices</a>
+      
+      <div class="pt-2">
+        <a href="contact.html" class="block w-full text-center px-4 py-3 rounded-xl bg-brand-600 text-white font-bold text-xs shadow">Request Quotation (RFQ) &rarr;</a>
+      </div>
+    </div>
+  </header>
+
+<!-- Page Hero Banner -->
+  <section class="py-16 sm:py-24 bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white border-b border-slate-800 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-20">
+      <img src="images/global-meeting.jpg" alt="SA International Strategic Corporate Advisory" class="w-full h-full object-cover">
+    </div>
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+      <nav class="flex items-center space-x-2 text-xs text-slate-400 mb-4 font-medium">
+        <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+        <span>/</span>
+        <a href="services.html" class="hover:text-amber-400 transition">Global Sectors</a>
+        <span>/</span>
+        <span class="text-purple-400 font-semibold">Strategic Advisory</span>
+      </nav>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2.5 px-3 py-1 rounded-full bg-purple-400/10 border border-purple-400/20 text-purple-400 text-xs font-bold uppercase tracking-widest">
+            <span class="w-2 h-2 rounded-full bg-purple-400 animate-ping"></span>
+            <span>Division 04 &bull; Cross-Border Corporate Advisory & M&A</span>
+          </div>
+          <h1 class="text-3xl sm:text-6xl font-black tracking-tight text-white mt-4 leading-tight">
+            Cross-Border Corporate Expansion & Legal Trade Structuring
+          </h1>
+          <p class="mt-4 text-base sm:text-xl text-slate-300 leading-relaxed font-light">
+            Guiding multinational corporations, sovereign entities, and institutional investors through high-stakes cross-border market entry, tariff optimization, joint venture audits, and regulatory compliance.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-4 items-center">
+            <a href="#advisory-session" class="px-6 py-3.5 rounded-xl bg-purple-500 hover:bg-purple-400 text-slate-950 font-black text-xs shadow-lg transition flex items-center gap-2">
+              <span>Schedule Confidential Advisory Session</span>
+              <span>&rarr;</span>
+            </a>
+            <a href="https://wa.me/923364147095?text=Hello%20Saboor%20Ahmad,%20I%20wish%20to%20schedule%20an%20Advisory%20Session" target="_blank" class="px-5 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition flex items-center gap-2">
+              <span>💬 Direct Executive WhatsApp Desk</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Metric Quick Bar -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-4">
+          <div class="p-5 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-slate-800 text-center">
+            <span class="text-3xl font-black text-purple-400 block">$280M+</span>
+            <span class="text-xs text-slate-300 font-semibold mt-1 block">Cross-Border Deals Advised</span>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Joint Ventures & Mergers</span>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-slate-800 text-center">
+            <span class="text-3xl font-black text-white block">24 Jurisdictions</span>
+            <span class="text-xs text-slate-300 font-semibold mt-1 block">Regulatory Coverage</span>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">GCC, UK, EU, South Asia</span>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-slate-800 text-center">
+            <span class="text-3xl font-black text-emerald-400 block">100% Confidential</span>
+            <span class="text-xs text-slate-300 font-semibold mt-1 block">Institutional NDA</span>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Bilateral Integrity</span>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-900/80 backdrop-blur-md border border-slate-800 text-center">
+            <span class="text-3xl font-black text-amber-400 block">FTA & HS Optimization</span>
+            <span class="text-xs text-slate-300 font-semibold mt-1 block">Duty Minimization</span>
+            <span class="text-[10px] text-slate-500 mt-0.5 block">Certified Trade Lawyers</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Executive Governance & Practice Showcase -->
+  <section class="py-16 sm:py-20 bg-slate-100 border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-purple-600 bg-purple-100 px-3 py-1 rounded-full border border-purple-200">
+          Executive Governance &amp; Practice
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight mt-3">
+          Institutional Corporate Governance &amp; Compliance
+        </h2>
+        <p class="text-sm sm:text-base text-slate-600 mt-2">
+          Facilitating cross-border contract negotiations, foreign direct investment structuring, and international risk hedging matrices.
+        </p>
+      </div>
+
+      <!-- Clean Corporate Showcase Card -->
+      <div class="rounded-3xl shadow-2xl border border-slate-200 bg-slate-950 overflow-hidden max-w-5xl mx-auto group">
+        <div class="relative aspect-[16/9] sm:aspect-[21/9] overflow-hidden">
+          <img src="images/global-meeting.jpg" alt="SA International Executive Boardroom Strategic Advisory" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+          
+          <!-- Due Diligence Clearance Card -->
+          <div class="absolute top-4 left-4 sm:top-6 sm:left-6 p-4 rounded-2xl bg-slate-950/85 backdrop-blur-md border border-slate-700/80 text-white max-w-xs shadow-2xl">
+            <div class="flex items-center justify-between text-[11px] border-b border-slate-800 pb-2 mb-2">
+              <span class="font-bold text-purple-400 flex items-center gap-1.5">
+                <span class="w-2 h-2 rounded-full bg-purple-400 animate-pulse"></span>
+                PROJECT: MERIDIAN-CORRIDOR
+              </span>
+              <span class="text-emerald-400 font-mono">APPROVED</span>
+            </div>
+            <div class="text-xs space-y-1 font-mono text-slate-300">
+              <div class="flex justify-between"><span>Target Markets:</span> <strong class="text-white">UAE &amp; UK Free-Zones</strong></div>
+              <div class="flex justify-between"><span>Tariff Optimization:</span> <strong class="text-emerald-400">-14.2% Duty Relief</strong></div>
+              <div class="flex justify-between"><span>Foreign Entity:</span> <strong class="text-white">100% Foreign Ownership</strong></div>
+              <div class="flex justify-between"><span>Risk Index:</span> <strong class="text-sky-300">Low Exposure (A+)</strong></div>
+            </div>
+          </div>
+
+          <!-- Compliance Badge -->
+          <div class="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 p-4 rounded-2xl bg-slate-950/90 backdrop-blur-md border border-slate-700 text-white max-w-xs shadow-2xl hidden sm:block">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="w-5 h-5 rounded-full bg-purple-500 text-slate-950 flex items-center justify-center font-black text-xs">⚖️</span>
+              <span class="font-bold text-xs uppercase tracking-wider text-purple-300">Bilateral Compliance Verified</span>
+            </div>
+            <p class="text-[11px] text-slate-300">
+              Corporate structuring vetted against bilateral tax treaties, OECD base erosion regulations, and FATF cross-border compliance.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Corporate Status Bar at Bottom of Image -->
+        <div class="bg-slate-900 px-6 py-4 border-t border-slate-800 flex flex-wrap items-center justify-between text-xs text-slate-400 gap-2">
+          <div class="flex items-center space-x-4">
+            <span>🏛️ Key Hubs: <strong class="text-slate-200">London, Dubai International Financial Centre (DIFC), New York</strong></span>
+            <span class="hidden md:inline">&bull;</span>
+            <span class="hidden md:inline">🤝 Practice: <strong class="text-slate-200">M&amp;A, Entity Incorporation, Trade Treaties</strong></span>
+          </div>
+          <div class="font-semibold text-purple-400">
+            Advisory Council In Session
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Comprehensive Divisional Capabilities -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 py-16 sm:py-24 space-y-20">
+    
+    <div>
+      <div class="max-w-3xl mb-12">
+        <span class="text-xs font-bold uppercase tracking-widest text-purple-600 bg-purple-50 px-3 py-1 rounded-full border border-purple-200">
+          Advisory Practices
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight mt-3">
+          Specialized Corporate Counsel & Deal Structuring
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-2">
+          We eliminate bureaucratic friction and maximize legal protections for expanding global enterprises.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Card 1 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center font-black text-xl mb-6">
+            🌍
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">GCC & European Market Entry</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Turnkey corporate establishment in Dubai (DMCC, DIFC, DAFZA) and London. Bank account opening, local sponsorship arrangements, and regulatory licensing.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> 100% Foreign Ownership Structuring</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Expedited Corporate Bank Account Setup</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Residency & Executive Visa Sponsorship</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center font-black text-xl mb-6">
+            ⚖️
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">Tariff Harmonization & Free Trade (FTA)</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Reviewing supply chain flows to leverage bilateral free trade agreements (FTAs), optimizing HS code classifications, and eliminating redundant import tariffs.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Formal Binding Tariff Information (BTI)</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Rules of Origin Compliance Audits</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Up to 20% Tariff Duty Reductions</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-sky-50 text-sky-600 flex items-center justify-center font-black text-xl mb-6">
+            🤝
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">Joint Ventures & Cross-Border M&A</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Independent pre-acquisition commercial, financial, and legal due diligence. Drafting shareholder agreements, escrow frameworks, and dispute resolution clauses.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Forensic Accounting & Liability Discovery</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> LCIA & DIFC-LCIA Arbitration Clauses</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Post-Merger Operational Integration</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-rose-50 text-rose-600 flex items-center justify-center font-black text-xl mb-6">
+            🛡️
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">Foreign Exchange (FX) & Geopolitical Hedging</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Shielding cross-border transactions from emerging market currency volatility, interest rate fluctuations, and trade embargo disruptions through forward contracts.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Multi-Currency FX Forward Contract Structuring</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Sanctions Screening & OFAC Compliance</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Supply Chain Alternate Route Contingency</li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-black text-xl mb-6">
+            🏛️
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">Sovereign & Public-Private Partnerships</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Advising private consortiums on bidding for port concessions, industrial zone leases, and state grain procurement tenders across South Asia and the Middle East.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Tender Dossier Preparation & Bid Modeling</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Concession Agreement Negotiation</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Government Liaison & Protocol Management</li>
+          </ul>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition">
+          <div class="w-12 h-12 rounded-2xl bg-teal-50 text-teal-600 flex items-center justify-center font-black text-xl mb-6">
+            📋
+          </div>
+          <h3 class="text-xl font-bold text-slate-900">Corporate Governance & ESG Alignment</h3>
+          <p class="text-slate-600 text-xs sm:text-sm mt-3 leading-relaxed">
+            Structuring board oversight frameworks, executive compensation policies, anti-bribery standards (FCPA / UK Bribery Act), and sustainability disclosures.
+          </p>
+          <ul class="mt-4 space-y-2 text-xs text-slate-700 border-t border-slate-100 pt-4">
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Transparent Whistleblower Mechanisms</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Carbon Accounting & ESG Supply Chain Audits</li>
+            <li class="flex items-center gap-1.5"><span class="text-emerald-500 font-bold">✓</span> Director Fiduciary Protection Manuals</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- 4-Step Strategic Consulting Framework -->
+    <div class="bg-slate-900 rounded-3xl p-8 sm:p-12 text-white border border-slate-800">
+      <div class="max-w-2xl mb-10">
+        <span class="text-xs font-bold uppercase tracking-widest text-purple-400">Advisory Framework</span>
+        <h2 class="text-2xl sm:text-4xl font-black mt-2">The SA Strategic Engagement Protocol</h2>
+        <p class="text-slate-400 text-sm mt-2">How we protect client capital and optimize cross-border market penetration.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800">
+          <span class="text-purple-400 font-mono text-2xl font-black block">01</span>
+          <h4 class="font-bold text-base mt-2">NDA & Scoping</h4>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">Mutual institutional Non-Disclosure Agreement execution and definition of key strategic objectives.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800">
+          <span class="text-purple-400 font-mono text-2xl font-black block">02</span>
+          <h4 class="font-bold text-base mt-2">Jurisdictional Analysis</h4>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">Comparative tax, regulatory, and legal feasibility across Dubai, London, New York, and regional hubs.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800">
+          <span class="text-purple-400 font-mono text-2xl font-black block">03</span>
+          <h4 class="font-bold text-base mt-2">Structure & Filings</h4>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">Drafting corporate charters, shareholder pacts, bank compliance documentation, and governmental licensing.</p>
+        </div>
+
+        <div class="p-5 rounded-2xl bg-slate-950/60 border border-slate-800">
+          <span class="text-purple-400 font-mono text-2xl font-black block">04</span>
+          <h4 class="font-bold text-base mt-2">Launch & Directorship</h4>
+          <p class="text-slate-400 text-xs mt-2 leading-relaxed">Active operational launch, nominee board advisory, and ongoing quarterly regulatory audits.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Dedicated Advisory Session Request Section -->
+    <section id="advisory-session" class="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200 shadow-xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        
+        <div class="lg:col-span-5 space-y-4">
+          <span class="text-xs font-bold uppercase tracking-widest text-purple-600 bg-purple-50 px-3 py-1 rounded-full border border-purple-200">
+            Confidential Consultation
+          </span>
+          <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+            Schedule a Confidential Executive Session
+          </h2>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Consult directly with Managing Director Saboor Ahmad and senior international trade partners. All inquiries are protected by institutional attorney-client privilege and strict NDAs.
+          </p>
+
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200 space-y-3 text-xs text-slate-700">
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-500 font-bold">✓</span>
+              <span><strong>Managing Director:</strong> Saboor Ahmad</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-500 font-bold">✓</span>
+              <span><strong>Direct WhatsApp:</strong> +92 336 4147095</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-500 font-bold">✓</span>
+              <span><strong>Corporate Email:</strong> saboorahmad5th@gmail.com</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="text-emerald-500 font-bold">✓</span>
+              <span><strong>Executive Office:</strong> Muhalla Masjid Taj Din, Mughalpura, Lahore</span>
+            </div>
+          </div>
+
+          <div class="pt-2">
+            <a href="https://wa.me/923364147095?text=Hello%20Saboor%20Ahmad,%20I%20wish%20to%20schedule%20a%20Strategic%20Advisory%20Call" target="_blank" class="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-purple-700 hover:bg-purple-600 text-white font-bold text-xs shadow transition">
+              <span>💬 Direct Executive WhatsApp</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <form onsubmit="handleRfqSubmit(event, 'Corporate Advisory')" class="space-y-5">
+            <input type="hidden" name="sector" value="consulting">
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Corporation / Fund Name *</label>
+                <input type="text" name="company" required placeholder="e.g. Apex Sovereign Holdings" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Executive Lead Name *</label>
+                <input type="text" name="name" required placeholder="e.g. Tariq Khan (Managing Partner)" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Corporate Email *</label>
+                <input type="email" name="email" required placeholder="executive@fund.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Phone / WhatsApp *</label>
+                <input type="tel" name="phone" required placeholder="+92 336 4147095" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Advisory Mandate</label>
+                <select name="mandate_type" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none bg-white">
+                  <option value="market_entry">GCC / UK Entity Setup & Licensing</option>
+                  <option value="tariff_fta">Tariff Harmonization & FTA Duty Relief</option>
+                  <option value="ma_jv">Joint Venture & Due Diligence Audit</option>
+                  <option value="fx_hedging">Foreign Exchange & Geopolitical Risk</option>
+                  <option value="ppp_concessions">Sovereign Tender & Port Concession</option>
+                </select>
+              </div>
+              <div>
+                <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Estimated Transaction Scope</label>
+                <select name="budget" class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none bg-white">
+                  <option value="100k-500k">$100,000 &ndash; $500,000</option>
+                  <option value="500k-2m" selected>$500,000 &ndash; $2,000,000</option>
+                  <option value="2m-10m">$2,000,000 &ndash; $10,000,000</option>
+                  <option value="10m+">$10,000,000+ (Institutional Mandate)</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Strategic Objectives & Jurisdictional Background *</label>
+              <textarea name="message" rows="4" required placeholder="Please provide background on target jurisdictions, regulatory bottlenecks, desired incorporation timeline, and specific counsel required..." class="w-full px-4 py-3 rounded-xl border border-slate-300 text-sm focus:ring-2 focus:ring-purple-500 focus:outline-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900 hover:bg-purple-600 hover:text-white text-white font-black text-xs shadow-md transition transform active:scale-95">
+              Request Confidential Advisory Session &rarr;
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= GLOBAL CORPORATE FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 py-16 border-t border-slate-800 text-xs mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800/80">
+        
+        <!-- Col 1: Brand & Global Vision (2 cols on lg) -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3 text-white">
+            <div class="w-12 h-12 rounded-full overflow-hidden shadow-lg border-2 border-slate-700 bg-white flex items-center justify-center p-0.5 shrink-0">
+              <img src="images/sa-logo.png" alt="SA International Logo" class="w-full h-full object-contain">
+            </div>
+            <div>
+              <span class="text-lg font-black tracking-tight block">SA <span class="text-brand-400">INTERNATIONAL</span></span>
+              <span class="text-[10px] text-slate-500 font-bold uppercase tracking-widest block">Global Enterprise & Trade Solutions</span>
+            </div>
+          </div>
+          
+          <p class="text-slate-400 text-xs leading-relaxed max-w-sm">
+            SA International is a diversified cross-border enterprise delivering world-class freight logistics, commodities trading, cloud enterprise engineering, and strategic corporate advisory across 4 continents.
+          </p>
+
+          <div class="flex items-center gap-2 pt-2">
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-slate-300 font-bold text-[10px] border border-slate-800">
+              ISO 9001:2015 Certified
+            </span>
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-slate-300 font-bold text-[10px] border border-slate-800">
+              WCO Trade Security
+            </span>
+            <span class="px-2.5 py-1 rounded bg-slate-900 text-emerald-400 font-bold text-[10px] border border-slate-800">
+              GDPR Compliant
+            </span>
+          </div>
+        </div>
+
+        <!-- Col 2: Global Divisions -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Global Divisions</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="logistics.html" class="hover:text-amber-400 transition">Global Freight & Logistics</a></li>
+            <li><a href="technology.html" class="hover:text-sky-400 transition">Enterprise Cloud Tech</a></li>
+            <li><a href="commodities.html" class="hover:text-emerald-400 transition">Cross-Border Commodities</a></li>
+            <li><a href="advisory.html" class="hover:text-purple-400 transition">Strategic Corporate Advisory</a></li>
+            <li><a href="services.html" class="hover:text-white transition">All Sectors Overview</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Navigation -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Corporate</h4>
+          <ul class="space-y-2.5 text-xs">
+            <li><a href="index.html" class="hover:text-white transition">Executive Overview</a></li>
+            <li><a href="about.html" class="hover:text-white transition">About SA International</a></li>
+            <li><a href="saboor-ahmad.html" class="hover:text-amber-400 transition font-medium">Saboor Ahmad (Managing Director)</a></li>
+            <li><a href="network.html" class="hover:text-white transition">Worldwide Hubs</a></li>
+            <li><a href="contact.html" class="hover:text-white transition">Request for Quotation (RFQ)</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Executive Headquarters & Regional Hubs -->
+        <div>
+          <h4 class="text-white font-bold uppercase tracking-wider mb-4 text-xs">Executive Office</h4>
+          <div class="space-y-3 text-xs text-slate-400">
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Managing Director</span>
+              <strong class="text-white">Saboor Ahmad</strong>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Direct Hotline / WhatsApp</span>
+              <a href="https://wa.me/923364147095" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-semibold transition">
+                +92 336 4147095
+              </a>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">Corporate Email</span>
+              <a href="mailto:saboorahmad5th@gmail.com" class="text-brand-400 hover:text-white transition break-all font-semibold">
+                saboorahmad5th@gmail.com
+              </a>
+            </div>
+            <div>
+              <span class="text-slate-500 block text-[10px] uppercase font-bold tracking-wider">South Asia Executive Hub</span>
+              <span class="text-slate-300 block">Muhalla Masjid Taj Din, Mughalpura, Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar: Legal & Global Offices -->
+      <div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-500 text-[11px]">
+        <div class="flex flex-wrap items-center gap-2">
+          <span>&copy; 2026 SA International Corporation. All international rights reserved.</span>
+        </div>
+        <div class="flex items-center space-x-4">
+          <span class="text-slate-400">Global Hubs:</span>
+          <span class="hover:text-white">Dubai</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">London</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">New York</span>
+          <span>&bull;</span>
+          <span class="hover:text-white">Lahore</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Mobile Drawer Toggle Script & RFQ Form Handler -->
+  <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    function handleRfqSubmit(event, sectorName) {
+      event.preventDefault();
+      const form = event.target;
+      const formData = new FormData(form);
+      const rep = formData.get('name') || 'Partner';
+      const company = formData.get('company') || '';
+      const email = formData.get('email') || '';
+      const phone = formData.get('phone') || '';
+      const message = formData.get('message') || '';
+      const route = formData.get('route') || formData.get('origin') || '';
+      
+      const whatsappLines = [
+        "Hello Saboor Ahmad, I am submitting an RFQ for " + (sectorName || "SA International"),
+        "Name: " + rep,
+        "Company: " + company,
+        "Phone: " + phone,
+        "Email: " + email,
+        route ? ("Route/Port: " + route) : "",
+        "Details: " + message
+      ].filter(Boolean);
+      const whatsappMsg = encodeURIComponent(whatsappLines.join("\n"));
+      
+      let alertBox = document.getElementById('rfq-alert');
+      if (!alertBox) {
+        alertBox = document.createElement('div');
+        alertBox.id = 'rfq-alert';
+        alertBox.className = 'my-4 p-5 rounded-2xl bg-emerald-50 border-2 border-emerald-400 text-emerald-900 space-y-2 shadow-lg';
+        form.parentNode.insertBefore(alertBox, form);
+      }
+      
+      alertBox.innerHTML = '<div class="flex items-center gap-2 font-black text-sm text-emerald-800">' +
+        '<span class="w-6 h-6 rounded-full bg-emerald-600 text-white flex items-center justify-center text-xs">✓</span>' +
+        '<span>Thank you, ' + rep + '! Your RFQ has been logged.</span></div>' +
+        '<p class="text-xs text-emerald-700">Our international trade desk will review your specifications and contact you within 2 hours.</p>' +
+        '<div class="pt-2"><a href="https://wa.me/923364147095?text=' + whatsappMsg + '" target="_blank" class="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow transition"><span>💬 Forward Directly to WhatsApp Desk</span> &rarr;</a></div>';
+      
+      alertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      form.reset();
+    }
+  </script>
+
+</body>
+</html>
